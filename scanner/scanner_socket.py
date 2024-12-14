@@ -20,6 +20,5 @@ for i in range(50,500):
 
     if conexao == 0:
         print("Porta: ",i, "aberta")
-
     s.close()
 print("Tempo que levou: ",time.time() - tempo_inicial) 
